@@ -1,0 +1,11 @@
+
+_reset.scss (underscore is just a convention. Need to prefix all your scss file with
+            _ so the processor knows how to get them..)
+
+            
+script to build css to minified form::
+
+"build-css":"node-css --include-path scss scss/main.scss"
+
+//look for main.scss process it compile to css form and put it to build/scc/style/style.min.css
+
